@@ -1,0 +1,4 @@
+/speck
+/bin/
+*.test
+.DS_Store
