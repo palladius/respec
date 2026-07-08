@@ -57,8 +57,9 @@ export GEMINI_API_KEY=...   # https://ai.google.dev/gemini-api/docs/api-key
 
 Generate a spec directly from an idea:
 
-```
-speck oneshot "a CLI that dedups photos by perceptual hash"
+```bash
+just build
+bin/speck oneshot "a CLI that dedups photos by perceptual hash"
 ```
 
 The idea can come from several places, in priority order: a positional
