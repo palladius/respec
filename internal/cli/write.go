@@ -5,8 +5,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/palladius/speck/internal/genai"
-	"github.com/palladius/speck/internal/spec"
+	"github.com/palladius/respec/internal/genai"
+	"github.com/palladius/respec/internal/spec"
 )
 
 // writeSpec renders and writes SPEC.md, plus a sidecar input_prompt.md

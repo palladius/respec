@@ -1,6 +1,14 @@
 # Changelog
 
-All notable changes to speck are documented here.
+All notable changes to respec are documented here.
+
+## 0.3.0
+
+- Renamed the repo and Go module path from `speck` to `respec`
+  (`github.com/palladius/respec`) and updated the README title/branding to
+  "Re-SPEC" — the CLI command/binary itself stays `speck` for now. The
+  original `speck` bacon-pun logo is preserved under `assets/speck/`.
+- Added a bonus Ali G quote to the README.
 
 ## 0.2.0
 

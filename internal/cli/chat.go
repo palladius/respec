@@ -13,11 +13,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/palladius/speck/internal/genai"
-	"github.com/palladius/speck/internal/input"
-	"github.com/palladius/speck/internal/inspire"
-	"github.com/palladius/speck/internal/spec"
-	"github.com/palladius/speck/internal/ui"
+	"github.com/palladius/respec/internal/genai"
+	"github.com/palladius/respec/internal/input"
+	"github.com/palladius/respec/internal/inspire"
+	"github.com/palladius/respec/internal/spec"
+	"github.com/palladius/respec/internal/ui"
 )
 
 var chatFile string

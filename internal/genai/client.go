@@ -11,7 +11,7 @@ import (
 
 	sdk "google.golang.org/genai"
 
-	"github.com/palladius/speck/internal/spec"
+	"github.com/palladius/respec/internal/spec"
 )
 
 // DefaultModel is used when the caller doesn't override the model.

@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/palladius/speck/internal/version"
+	"github.com/palladius/respec/internal/version"
 )
 
 // outputDirEnvVar overrides the default output directory when

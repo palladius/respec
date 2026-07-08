@@ -4,8 +4,8 @@ package main
 import (
 	"os"
 
-	"github.com/palladius/speck/internal/cli"
-	"github.com/palladius/speck/internal/dotenv"
+	"github.com/palladius/respec/internal/cli"
+	"github.com/palladius/respec/internal/dotenv"
 )
 
 func main() {

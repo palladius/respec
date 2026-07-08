@@ -1,23 +1,18 @@
-# [speck](https://github.com/palladius/speck)
+# [Re-SPEC](https://github.com/palladius/respec)
 
 <p align="center">
-  <img src="docs/logo.jpg" alt="speck logo" width="250"/>
-</p>
-
-<p align="center">
-  <img src="assets/respeck_meat.png" alt="Re-SPECK!" width="300"/>
-  <br/>
-  <em>Re-SPECK!</em>
+  <img src="assets/respec.png" alt="Re-SPEC!" width="300"/>
 </p>
 
 <p align="center">
   <strong>Repository Images:</strong>
-  <a href="docs/logo.jpg">logo.jpg</a> |
-  <a href="assets/respeck_meat.png">respeck_meat.png</a> |
-  <a href="assets/respeck.png">respeck.png</a> |
   <a href="assets/respec.png">respec.png</a> |
   <a href="assets/respec_docs.png">respec_docs.png</a>
 </p>
+
+> "Booyakasha! In dis new age of AI codeing, we is all just one pull request
+> away from havin' to RE-SPEC each other's repo. Respect." — *Ali G (not a
+> real quote, but should be)*
 
 Turn a rough idea into a structured `SPEC.md` you can hand to any AI coding
 assistant.
@@ -42,7 +37,7 @@ behind `speck chat`.
 Requires Go 1.22+.
 
 ```
-go install github.com/palladius/speck/cmd/speck@latest
+go install github.com/palladius/respec/cmd/speck@latest
 ```
 
 ## Setup

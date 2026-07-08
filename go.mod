@@ -1,4 +1,4 @@
-module github.com/palladius/speck
+module github.com/palladius/respec
 
 go 1.26.4
 

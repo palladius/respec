@@ -3,7 +3,7 @@ package cli
 import (
 	"strings"
 
-	"github.com/palladius/speck/internal/inspire"
+	"github.com/palladius/respec/internal/inspire"
 )
 
 // buildInitialPrompt combines the idea with any inspiration material,

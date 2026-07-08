@@ -3,4 +3,4 @@
 package version
 
 // Version is speck's current version. Bump it alongside a CHANGELOG.md entry.
-const Version = "0.2.0"
+const Version = "0.3.0"
