@@ -1,6 +1,8 @@
 # 🌍 BabelSaga (Defaultia)
 ## Complete Game Design, Lore & AI Agent System
 
+**Version**: 1.0.0
+
 > **A multi-namespace SimCity-style simulation game powered by AI agents and developer-written bots.**
 > *Explore a grid-world where the English language is forbidden, Esperanto is the common tongue, and custom AI bots manage economy, resources, and communication via the Model Context Protocol (MCP) and Cloud Run.*
 

@@ -1,6 +1,8 @@
 # 🧙‍♂️🦅 Mage & Familiar (Il Mago e il Famiglio)
 ## Complete Lore, Design & Symbiotic Co-Op Game Concept
 
+**Version**: 1.0.0
+
 > **Set in the Cloud Realm of Gicipya (GCP) ☁️**
 > *A retro-80s co-op RPG for developers and AI agents, where a Human Mage and an AI Familiar must work in perfect 50/50 symbiosis to conquer the dungeon, brew cloud-alchemy artifacts, and trigger a real-world deployment to Google Cloud Run!*
 
