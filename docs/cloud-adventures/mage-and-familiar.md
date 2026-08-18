@@ -20,9 +20,9 @@ Many AI agent workshops and developer demos are **passive**. The attendee pastes
 
 ---
 
-## 🌌 2. Story & World Lore: The Crypt of Forgotten Prompts
+## 🌌 2. Story & World Lore: The Crypt of Arcane Runes
 
-Deep in the Cloud Realm of **Gicipya** (*pronounced G-C-P-ia*) lies the **Crypt of Forgotten Prompts**, a mystical vault constructed by ancient cloud architects. Deep within its chambers lie the **Relics of the Perfect Code**, sealed behind magical runes written in Gicipya's two sacred languages: **Arcane Latin** and **Universal Esperanto**.
+Deep in the Cloud Realm of **Gicipya** (*pronounced G-C-P-ia*) lies the **Crypt of Arcane Runes**, a mystical vault constructed by ancient cloud architects. Deep within its chambers lie the **Relics of the Perfect Code**, sealed behind magical runes written in Gicipya's two sacred languages: **Arcane Latin** and **Universal Esperanto**.
 
 * **The Mage's Burden**: The human Mage is physically strong enough to brew potions and stir cauldron rituals, but cannot look at the Latin/Esperanto seals without suffering severe hallucinations.
 * **The Familiar's Duty**: The spectral Familiar is immune to the runes' madness and can fly ahead to translate inscriptions, spot invisible traps, and sonar-ping the rooms—but lacks a physical form to pick up items or trigger levers.
@@ -59,7 +59,7 @@ To make the game highly social, competitive, and visual, Mage & Familiar include
 
 ## 🎮 5. Example Walkthrough & Co-Op Interactions
 
-### Chapter 1: Crypt of Forgotten Prompts (*Crypta Promptorum Oblitorum*)
+### Chapter 1: Crypt of Arcane Runes (*Crypta Runarum Arcanarum*)
 * **The Obstacle**: The Mage stands before the Gate of Hidden Runes (*"Nemo transit sine flamma et scientia"*). The gate is locked.
 * **Co-Op Sync**:
   1. The Mage cannot see the runes. The AI Familiar calls `/api/v1/familiar/detect` (`REVELU NEVIDEBLAN` / Detect Invisible) to reveal the hidden inscription.
