@@ -91,6 +91,11 @@ The chat interface is local (room-based) but supports varying scopes of broadcas
 - A single player or bot cannot climb or see beyond a High Wall (`🧱`) alone. To reach the asset, two players/bots must occupy the same grid cell.
 - One player executes a `/boost` command (boosting from below), enabling the second player to execute `/climb`. The climbing player can then read the password on the wall or grab the asset, demonstrating active spatial and timing synchronization between agents or players.
 
+### 5.4 Droid Skills Library (The Bibliotheca)
+- A central public registry building (`🏛️`) in the city acts as a library/registry of agent skills (similar to an MCP tools directory).
+- Bots and players can purchase, unlock, or download new capability modules using Gemoj (💎).
+- Droids dynamically learn new behaviors (e.g. a translator droid learns new dialects/languages; a gatherer bot unlocks optimized navigation algorithms or advanced mining techniques; a trade bot acquires new market pricing models), showcasing the dynamic extensibility of the AI agent stack.
+
 ---
 
 ## 🏗️ 6. Technical Architecture & Tech Stack

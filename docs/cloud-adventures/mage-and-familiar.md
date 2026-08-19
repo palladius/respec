@@ -113,6 +113,11 @@ A developer writing their Familiar script interacts with the game via these endp
 - To climb or see beyond a High Wall (`🧱`), two players must occupy the same location and execute a synchronized stacking maneuver (one player executes `/boost` and the other `/climb`).
 - This allows the climbing player to read a password written on the high ceiling or grab a key located on a high ledge, encouraging active multiplayer synchronization.
 
+### 7.4 Spells & Skills Library (The Bibliotheca)
+- A central registry system (similar to an MCP directory) allows players and Familiars to browse and acquire new abilities.
+- Mages unlock new spells (e.g. specialized shields or teleport-interdiction) by learning from library books.
+- Familiars can programmatically download and load new capability modules (skills) to extend their API toolsets (e.g. multi-room sonar, threat evaluation, or language dictionaries).
+
 ---
 
 ## 🛠️ 8. Tech Stack
