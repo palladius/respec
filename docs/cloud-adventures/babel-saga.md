@@ -86,6 +86,11 @@ The chat interface is local (room-based) but supports varying scopes of broadcas
 - The final milestone requires 3 of the same gem type (3 Diamonds, 3 Rubies, or 3 Emeralds).
 - Since each player begins with a mixed set (1 Diamond, 1 Ruby, 1 Emerald), the Familiar/Droid must negotiate and trade gems autonomously with other players' bots via Agent-to-Agent (A2A) endpoints.
 
+### 5.3 Physical Cooperation & Player Stacking (Beyond the Walls)
+- High obstacles (walls, ledges) block access to valuable assets (e.g. special gems or secret codes/passwords).
+- A single player or bot cannot climb or see beyond a High Wall (`🧱`) alone. To reach the asset, two players/bots must occupy the same grid cell.
+- One player executes a `/boost` command (boosting from below), enabling the second player to execute `/climb`. The climbing player can then read the password on the wall or grab the asset, demonstrating active spatial and timing synchronization between agents or players.
+
 ---
 
 ## 🏗️ 6. Technical Architecture & Tech Stack

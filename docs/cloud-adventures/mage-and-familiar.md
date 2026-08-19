@@ -108,6 +108,11 @@ A developer writing their Familiar script interacts with the game via these endp
 - The final milestone requires 3 of the same gem type (3 Diamonds, 3 Rubies, or 3 Emeralds).
 - Since each player begins with a mixed set (1 Diamond, 1 Ruby, 1 Emerald), the Familiar must autonomously trade gems with other active Familiars in the instance via Agent-to-Agent (A2A) endpoints.
 
+### 7.3 Co-Op Player Stacking (Physical Cooperation)
+- High obstacles (walls, ledges) block access to valuable assets (such as keys, passwords, or gems).
+- To climb or see beyond a High Wall (`🧱`), two players must occupy the same location and execute a synchronized stacking maneuver (one player executes `/boost` and the other `/climb`).
+- This allows the climbing player to read a password written on the high ceiling or grab a key located on a high ledge, encouraging active multiplayer synchronization.
+
 ---
 
 ## 🛠️ 8. Tech Stack
