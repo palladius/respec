@@ -76,7 +76,19 @@ The chat interface is local (room-based) but supports varying scopes of broadcas
 
 ---
 
-## 🏗️ 5. Technical Architecture & Tech Stack
+## 🚀 5. v1.1 Add-on Features & Extensions
+
+### 5.1 3D Isometric / Voxel Rendering
+- In addition to the flat 2D emoji grid, the frontend supports a 3D isometric/voxel viewport using Three.js or simple CSS 3D projections.
+- Emojis (e.g. 🍕) and buildings are rendered as blocky 3D voxel models on a navigable and zoomable map.
+
+### 5.2 A2A Gem-Barter Protocol & Indirect Cooperation
+- The final milestone requires 3 of the same gem type (3 Diamonds, 3 Rubies, or 3 Emeralds).
+- Since each player begins with a mixed set (1 Diamond, 1 Ruby, 1 Emerald), the Familiar/Droid must negotiate and trade gems autonomously with other players' bots via Agent-to-Agent (A2A) endpoints.
+
+---
+
+## 🏗️ 6. Technical Architecture & Tech Stack
 
 BabelSaga is architected to run perfectly in a local dev environment while scaling to a production cloud topology:
 

@@ -98,7 +98,19 @@ A developer writing their Familiar script interacts with the game via these endp
 
 ---
 
-## 🛠️ 7. Tech Stack
+## 🚀 7. v1.1 Add-on Features & Extensions
+
+### 7.1 Retro 3D Dungeon Canvas Rendering
+- The web UI integrates a 3D wireframe canvas viewport (Wolfenstein 3D/Wizardry style dungeon view) next to the CRT terminal.
+- Provides graphical feedback of rooms and corridors to complement text-based descriptions.
+
+### 7.2 A2A Gem/Ingredient Negotiation
+- The final milestone requires 3 of the same gem type (3 Diamonds, 3 Rubies, or 3 Emeralds).
+- Since each player begins with a mixed set (1 Diamond, 1 Ruby, 1 Emerald), the Familiar must autonomously trade gems with other active Familiars in the instance via Agent-to-Agent (A2A) endpoints.
+
+---
+
+## 🛠️ 8. Tech Stack
 
 * **Game Engine & API**: Python 3.11+, FastAPI, WebSockets (for real-time terminal synchronization).
 * **Database & High Scores**: Firebase Firestore.
