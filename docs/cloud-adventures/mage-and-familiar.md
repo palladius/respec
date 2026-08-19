@@ -118,6 +118,14 @@ A developer writing their Familiar script interacts with the game via these endp
 - Mages unlock new spells (e.g. specialized shields or teleport-interdiction) by learning from library books.
 - Familiars can programmatically download and load new capability modules (skills) to extend their API toolsets (e.g. multi-room sonar, threat evaluation, or language dictionaries).
 
+### 7.5 Anonymous Journey-Style Pairing & Solo Fallbacks
+- **Journey-style Pairing:** Players enter the session and are seamlessly, anonymously paired with another active player (without seeing usernames or having textual chat). They interact via musical notes/pings, physical movements, or bartering.
+- **The Solo Fallback Principle:** Co-op interaction must **never** lock progression. A solo player (or someone left behind due to an odd number of players, e.g. 5, or partner disconnects) must be able to complete the main game.
+- **Duality of Paths:**
+  - **Co-op Bonuses:** Stacking over walls or exchanging matching gems opens secret rooms, shortcuts, easter eggs, and custom badges.
+  - **Solo Alternatives:** Solo players can push heavy wooden boxes to climb walls (requiring more steps) and trade gems with a NPC "Hermit Bot" at a slightly worse exchange rate to unlock gates.
+  - **AI Companions:** If a partner disconnects mid-session, the game engine automatically spawns a simple computer-controlled Familiar companion to take over.
+
 ---
 
 ## 🛠️ 8. Tech Stack

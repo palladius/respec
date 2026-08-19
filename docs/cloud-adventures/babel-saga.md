@@ -96,6 +96,14 @@ The chat interface is local (room-based) but supports varying scopes of broadcas
 - Bots and players can purchase, unlock, or download new capability modules using Gemoj (💎).
 - Droids dynamically learn new behaviors (e.g. a translator droid learns new dialects/languages; a gatherer bot unlocks optimized navigation algorithms or advanced mining techniques; a trade bot acquires new market pricing models), showcasing the dynamic extensibility of the AI agent stack.
 
+### 5.5 Anonymous Journey-Style Pairing & Solo Fallbacks
+- **Journey-style Pairing:** Upon joining a session, players are seamlessly and anonymously paired with another active participant (usernames are hidden, and direct text chat is disabled). They interact purely through movements, audio pings, or bartering.
+- **The Solo Fallback Principle:** Co-op interaction must **never** block progression. A solo player (or someone left behind due to an odd number of players, e.g. 5, or partner disconnects) must be able to complete the main game.
+- **Duality of Paths:**
+  - **Co-op Bonuses:** Stacking over walls or exchanging matching gems opens secret rooms, shortcuts, easter eggs, and custom badges.
+  - **Solo Alternatives:** Solo players can push heavy wooden boxes to climb walls (requiring more steps) and trade gems with a NPC "Hermit Bot" at a slightly worse exchange rate to unlock gates.
+  - **AI Companions:** If a partner disconnects mid-session, the game engine automatically spawns a simple computer-controlled Familiar companion to take over.
+
 ---
 
 ## 🏗️ 6. Technical Architecture & Tech Stack
