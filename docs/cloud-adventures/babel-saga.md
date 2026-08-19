@@ -104,6 +104,12 @@ The chat interface is local (room-based) but supports varying scopes of broadcas
   - **Solo Alternatives:** Solo players can push heavy wooden boxes to climb walls (requiring more steps) and trade gems with a NPC "Hermit Bot" at a slightly worse exchange rate to unlock gates.
   - **AI Companions:** If a partner disconnects mid-session, the game engine automatically spawns a simple computer-controlled Familiar companion to take over.
 
+### 5.6 GCP Regional Disasters & Redundancy Mechanics (Inspired by Roberto)
+- **Regional Map Zones:** The city grid is divided into zones representing different GCP Regions (e.g. Zurich `europe-west6`, Frankfurt `europe-west3`).
+- **Infrastructure Assets:** Players deploy assets like GKE Temples, Database replicas, or Cloud Run Altars in these regional zones.
+- **Meteor Swarms (Outages):** Random events or evil spells can target and destroy all active structures in a specific region (simulating a regional cloud outage).
+- **High Availability (HA) Challenge:** Players must build redundant GKE Temples or Cloud Run Altars in separate zones, linked via a global Load Balancer Altar. If one region is hit, the load balancer automatically redirects traffic to the surviving region, keeping the city's economy running.
+
 ---
 
 ## 🏗️ 6. Technical Architecture & Tech Stack
