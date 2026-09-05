@@ -2,6 +2,11 @@
 
 All notable changes to respec are documented here.
 
+## 0.3.1
+
+- Migrated all externally generated specs from `docs/` to a dedicated `specs/` folder at the repository root, grouped by category (Games, Apps, Tools, Agents, Meta).
+- Added `scripts/list_specs.py` and updated `just list` to display a nice tree-view of all specs with folder emojis.
+
 ## 0.3.0
 
 - Renamed the repo and Go module path from `speck` to `respec`
