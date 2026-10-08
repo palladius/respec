@@ -37,6 +37,9 @@ assistant.
 - Record full provenance in the output file's YAML frontmatter: a pointer to
   the exact idea (`input_prompt.md`, always written alongside the spec),
   inspiration sources used, timestamp, model, and token usage.
+- Standardize on an `extras/` subfolder alongside the `SPEC.md` to house
+  all supplementary files (images, validation scripts, mockups, datasets),
+  keeping the spec directory clean.
 - Load `GEMINI_API_KEY` and other config from a `.env` file automatically,
   so common invocations need no manual `export`.
 - Be genuinely pleasant to use from a terminal: colors, emoji, shell

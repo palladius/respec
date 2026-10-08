@@ -16,6 +16,11 @@ func writeSpec(dir, specPath string, fm spec.Frontmatter, idea string, result ge
 		return fmt.Errorf("create output dir: %w", err)
 	}
 
+	// Proactively create an empty extras/ directory to encourage standard layout
+	if err := os.MkdirAll(filepath.Join(dir, "extras"), 0o755); err != nil {
+		return fmt.Errorf("create extras dir: %w", err)
+	}
+
 	fm.IdeaFile = spec.InputPromptFileName
 	if err := os.WriteFile(filepath.Join(dir, spec.InputPromptFileName), []byte(idea), 0o644); err != nil {
 		return fmt.Errorf("write %s: %w", spec.InputPromptFileName, err)

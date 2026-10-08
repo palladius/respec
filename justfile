@@ -1,5 +1,9 @@
-
+# List all generated specs in a tree format.
 list:
+    ./scripts/list_specs.py
+
+# List available commands.
+help:
     just -l
 
 # Build the speck binary into bin/.

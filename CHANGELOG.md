@@ -6,12 +6,18 @@ All notable changes to respec are documented here.
 
 - Added `docs/llm-apps/plastilina/SPEC.md` (image/prompt → game-ready 3D with
   a deterministic + VLM critique/repair loop and skeleton testing, spec only).
-- Added `carlesso-family/assets/sources/puffin-guard_turnaround.jpeg` (pawn
-  design source, front + 3/4 view; used as the first Plastilina test input).
+- Added `carlesso-family/assets/` chess3d character art
+  (`<piece>-<character>[-N].jpg`); `pawn-puffin.jpg` (front + 3/4 view) is
+  also the first Plastilina test input.
 - Added `carlesso-family/chess3d/SPEC.md` (3D family chess, spec only) and
   noted in `AGENTS.md` that this repo hosts only specs (`GEMINI.md` symlinked).
 - Configured `.agents/` with project rules (`respec_rules.md`), pre-push test gate hook
   (`hooks.json`), and the `spec-to-code-tdd` skill for implementing specs in external repos.
+
+## 0.3.1
+
+- Migrated all externally generated specs from `docs/` to a dedicated `specs/` folder at the repository root, grouped by category (Games, Apps, Tools, Agents, Meta).
+- Added `scripts/list_specs.py` and updated `just list` to display a nice tree-view of all specs with folder emojis.
 
 ## 0.3.0
 
