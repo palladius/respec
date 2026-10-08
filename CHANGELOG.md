@@ -2,6 +2,11 @@
 
 All notable changes to respec are documented here.
 
+## Unreleased
+
+- Added `carlesso-family/chess3d/SPEC.md` (3D family chess, spec only) and
+  noted in `AGENTS.md` that this repo hosts only specs (`GEMINI.md` symlinked).
+
 ## 0.3.0
 
 - Renamed the repo and Go module path from `speck` to `respec`
