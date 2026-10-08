@@ -1,6 +1,7 @@
 /speck
 /bin/
 /out/
+/tmp/
 *.test
 .DS_Store
 .resume

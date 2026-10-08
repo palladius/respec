@@ -10,7 +10,7 @@ Note this claude session is wrapped by my $GIC/bin/claudio-XXXX scripts.
 
 ## Specs
 
-0. **This repo hosts ONLY specs** (`SPEC.md` + `input_prompt.md` + design assets). Never implement the spec'd apps/games here: implementations live in other git repos.
+0. **Hey! In questo repo ONLY specs!** 🛑 Non si implementano le app/giochi qui: le implementazioni vivono in ALTRI repo dedicati. Qui risiedono solo specifiche (`SPEC.md`, `input_prompt.md`), note, metadati e al più qualche asset iniziale (screenshot, bozze di partenza). Saranno poi altri a implementare le specs altrove!
 1. ensure you code things by following `docs/META-SPECS.md` and `docs/SPECS.md`
 2. Do not change specs alone, always prompt user and ask for explicit confirmation to change those. if You do, do it in concise way (ie add 1-2 lines not a full paragraph or chapter!)
 3. If you observe drift betwene code and specs, PLEASE let user know so you can take action.

@@ -1,0 +1,16 @@
+{
+  "respec-quality-gate": {
+    "PreToolUse": [
+      {
+        "matcher": "git push*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "./.agents/scripts/pre_push_hook.sh",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}
