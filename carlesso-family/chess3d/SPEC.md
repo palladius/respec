@@ -42,6 +42,9 @@ plane).
   **Easy / Medium / Hard**.
 - **Runs everywhere, offline**: localhost, desktop/mobile browsers, installable
   on Android; works with no network after first load.
+- **Per-profile autosave, no login**: local profiles ("Chi gioca?" picker,
+  no password) each with their own autosaved game in browser storage;
+  optional FEN/PGN export/import to move a game across devices.
 - **Wow factor**: soft shadows, warm lighting, bloom/glow, ambient particles,
   camera fly-in intro, squash-and-stretch piece moves, fireworks on checkmate.
 
@@ -65,7 +68,7 @@ plane).
 | ♕ Queen | **Kate** | Tiara, royal purple / emerald gown, ash-blonde hair | Elegant twirl |
 | ♘ Knight ×2 | **Seby** | Riding a toy horse, helmet, big grin | Horse bobs |
 | ♗ Bishop ×2 | **Ale** | Tall mitre with a big gem, glasses-optional, nerdy-cool | Gem pulses |
-| ♖ Rook ×2 | **Pupurabbu** | Giant, super-fluffy, soft purple/indigo monster with big sweet eyes (Seby's magical companion); may wear a propeller cap | Breathing, fur wobble |
+| ♖ Rook ×2 | **Pupurabbu** | Giant, super-fluffy, soft purple/indigo monster with big sweet eyes (Seby's magical companion); no hat | Breathing, fur wobble |
 | ♙ Pawn ×8 | **Swiss-Guard Puffin** | Puffin (Riccardo's totem) in blue/yellow/red striped uniform, morion helmet with red plume, halberd | Stands at attention, small sway |
 
 Family faces must be recognisable (character-consistent) but stylised.
@@ -171,6 +174,8 @@ is the "victim" and is removed at the end.
   photos + character descriptions for all four family members and
   Pupurabbu) and Nano Banana; transparent or plain backgrounds.
 - The implementation repo copies them in at build time.
+- Faces are fictional/stylised (not real likenesses) → safe to publish.
+- Pupurabbu has no propeller cap; follow the provided reference images.
 
 ### IP Safety
 
@@ -223,8 +228,4 @@ is the "victim" and is removed at the end.
 
 ## Open Questions
 
-- Where is the implementation repo (name/visibility), and is it published
-  (e.g. GitHub Pages) or localhost/APK only? This affects whether family
-  likenesses become public.
-- Should Pupurabbu wear the propeller cap in the game, or keep it plain?
-- Persist game state across reloads (localStorage), or always start fresh?
+- Implementation repo name and hosting (GitHub Pages vs localhost/APK).
