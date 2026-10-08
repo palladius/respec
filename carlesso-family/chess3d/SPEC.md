@@ -64,10 +64,10 @@ plane).
 
 | Piece | Character | Look (cutie, chibi proportions) | Idle animation |
 |---|---|---|---|
-| ♔ King | **Riccardo** | Crown, royal cape, wizard staff | Staff tip sparkles |
-| ♕ Queen | **Kate** | Tiara, royal purple / emerald gown, ash-blonde hair | Elegant twirl |
-| ♘ Knight ×2 | **Seby** | Riding a toy horse, helmet, big grin | Horse bobs |
-| ♗ Bishop ×2 | **Ale** | Tall mitre with a big gem, glasses-optional, nerdy-cool | Gem pulses |
+| ♔ King | **Riccardo** | Crown, ermine-trimmed royal cape, sceptre & orb | Sceptre tip sparkles |
+| ♕ Queen | **Kate** | Crown, royal purple gown, glasses, ash-blonde hair | Elegant twirl |
+| ♘ Knight ×2 | **Seby** | Silver armour, blue cape, lance, riding a wooden horse | Horse bobs |
+| ♗ Bishop ×2 | **Ale** | Blue/gold mitre and robe, staff, red baby dragon on shoulder | Dragon puffs smoke |
 | ♖ Rook ×2 | **Pupurabbu** | Giant, super-fluffy, soft purple/indigo monster with big sweet eyes (Seby's magical companion); no hat | Breathing, fur wobble |
 | ♙ Pawn ×8 | **Swiss-Guard Puffin** | Puffin (Riccardo's totem) in blue/yellow/red striped uniform, morion helmet with red plume, halberd | Stands at attention, small sway |
 
@@ -96,7 +96,7 @@ is the "victim" and is removed at the end.
 
 | Attacker | Animation |
 |---|---|
-| 👑 Riccardo (King) | Glowing rune circle on the victim's square, Riccardo raises his staff, magic orbs/lightning strike; victim levitates, spins and dissolves into sparkles. |
+| 👑 Riccardo (King) | Glowing rune circle on the victim's square, Riccardo raises his sceptre, magic orbs/lightning strike; victim levitates, spins and dissolves into sparkles. |
 | 👸 Kate (Queen) | A chocolate wave coats the victim (material lerps to glossy milk-chocolate brown), drips fall, lilac confetti; then everything **melts** into a puddle that fades. Lilac/brown palette only, no brand marks. |
 | 🐴 Seby (Knight) | A rain of tiny colourful die-cast-style toy cars (generic, unbranded) plus an orange loop-track ring; cars zoom around and bowl the victim over, which falls flat ("stecchito") with cartoon stars ✨. |
 | 💎 Ale (Bishop) | The victim turns into a translucent gem (amethyst **or** ruby, random) inside a purple crystal display case; glow builds… then it **shatters into hundreds of shards** with physics-like trajectories. |
@@ -167,9 +167,12 @@ is the "victim" and is removed at the end.
 ### Assets
 
 - Location: **`carlesso-family/assets/`** in this repo (shared design
-  reference, cutie/Nano Banana style). Suggested names:
-  `riccardo.png`, `kate.png`, `seby.png`, `ale.png`, `pupurabbu.png`,
-  `puffin-guard.png`, and `swamp-*.png` for the rival family.
+  reference, cutie/Nano Banana style). Naming: `<piece>-<character>[-N]`,
+  `-1` = canonical, higher = alternatives: `king-riccardo-{1,2}`,
+  `queen-kate-{1,2,3}`, `knight-seby-{1,2,3}`, `bishop-ale-{1,2}`,
+  `rook-pupurabbu`, `pawn-puffin`; rival family as `<piece>-swamp-<name>`.
+- These images are the canonical look; where the *Cast* table differs, the
+  images win (e.g. Ale has a red baby dragon on his shoulder).
 - Generated with the `characterconsistency-family-images` skill (reference
   photos + character descriptions for all four family members and
   Pupurabbu) and Nano Banana; transparent or plain backgrounds.
