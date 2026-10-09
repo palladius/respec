@@ -4,12 +4,15 @@ All notable changes to respec are documented here.
 
 ## Unreleased
 
+- Moved the last `docs/` specs into `specs/`: `apps/plastilina`,
+  `tools/sheets-autodetect-2026`, `tools/workshop-visualizer`.
+  `carlesso-family/chess3d/` stays put (linked from `palladius/carchess3d`).
 - Moved implementation artefacts (GLBs, Plastilina experiment scripts,
   `RUNNING_DOC.md`) to the new public repo
   [palladius/carchess3d](https://github.com/palladius/carchess3d); left a
   pointer stub. chess3d SPEC: implementation repo open question resolved.
 - Added updated chess3d character assets: `knight-seby-{4,5}.jpg` (Gold Saint Sebi with sword/lance) and `queen-kate-{4,5}.jpg` (rejuvenated Queen Kate with bluish-purple gown and single tanzanite ring).
-- Added `docs/llm-apps/plastilina/SPEC.md` (image/prompt → game-ready 3D with
+- Added `specs/apps/plastilina/SPEC.md` (image/prompt → game-ready 3D with
   a deterministic + VLM critique/repair loop and skeleton testing, spec only).
 - Added `carlesso-family/assets/` chess3d character art
   (`<piece>-<character>[-N].jpg`); `pawn-puffin.jpg` (front + 3/4 view) is
