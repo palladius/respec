@@ -4,6 +4,7 @@ All notable changes to respec are documented here.
 
 ## Unreleased
 
+- Added updated chess3d character assets: `knight-seby-{4,5}.jpg` (Gold Saint Sebi with sword/lance) and `queen-kate-{4,5}.jpg` (rejuvenated Queen Kate with bluish-purple gown and single tanzanite ring).
 - Added `docs/llm-apps/plastilina/SPEC.md` (image/prompt → game-ready 3D with
   a deterministic + VLM critique/repair loop and skeleton testing, spec only).
 - Added `carlesso-family/assets/` chess3d character art

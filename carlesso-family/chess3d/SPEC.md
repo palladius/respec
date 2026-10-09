@@ -169,7 +169,7 @@ is the "victim" and is removed at the end.
 - Location: **`carlesso-family/assets/`** in this repo (shared design
   reference, cutie/Nano Banana style). Naming: `<piece>-<character>[-N]`,
   `-1` = canonical, higher = alternatives: `king-riccardo-{1,2}`,
-  `queen-kate-{1,2,3}`, `knight-seby-{1,2,3}`, `bishop-ale-{1,2}`,
+  `queen-kate-{1..5}`, `knight-seby-{1..5}`, `bishop-ale-{1,2}`,
   `rook-pupurabbu`, `pawn-puffin`; rival family as `<piece>-swamp-<name>`.
 - These images are the canonical look; where the *Cast* table differs, the
   images win (e.g. Ale has a red baby dragon on his shoulder).
