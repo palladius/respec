@@ -139,12 +139,16 @@ flowchart LR
    tight crop and padding, 2D keypoints (body pose + face landmarks) and a
    segmentation of body parts. These become the **ground truth** that the
    Critic compares renders against.
+   - **Always matte ourselves**: backend APIs may skip the matting their web UI does.
+   - **Split turnaround sheets** into per-view images, stripping captions/labels.
 4. **Multi-view synthesis** (optional, chosen by the Planner): generate missing
    views to constrain the backend (e.g. when the back looks invented).
 5. **Image-to-3D backend** behind a **pluggable adapter**
    (`generate(images, options) → mesh + textures + metadata`):
    - **Local/GPU (default, €0)**: **TRELLIS** (MIT), **Hunyuan3D-2**
      (licence note, see *Licensing*), **Stable Fast 3D / SPAR3D**.
+   - **HF Spaces / ZeroGPU** (free with `HF_TOKEN`, for prototyping): quotas and
+     broken endpoints happen (e.g. Hunyuan3D-2 texturing), so it falls back gracefully.
    - Cloud (optional, paid, **disabled by default**): **Tripo3D**, **Meshy**,
      **Rodin (Hyper3D)**. Some offer rigging/part-editing endpoints, which are
      exposed as capabilities.
@@ -156,11 +160,14 @@ flowchart LR
      at the centre of the feet/base on the ground plane (min Y = 0).
    - Scale from subject type, or from user-provided height (default human
      1.75 m).
+   - **First** remove degenerate (zero-area) faces, before any Critic check
+     (Hunyuan3D-2 emitted ~40% of them → false "192k islands").
    - Merge by distance, recalculate normals, remove tiny floating islands, fill
      small holes, optional symmetrize (only when the source is symmetric).
    - Decimate/remesh to the budget; UV unwrap if needed; bake PBR
      (baseColor, normal, ORM) at 1k/2k/4k; optional LOD0–LOD2.
 7. **Rigging** (humanoids only):
+   - First separate pedestals/bases and held props (staff, halberd) from the body.
    - Auto-rig onto the **canonical skeleton** using the backend's rigging
      endpoint if available, otherwise an open-source auto-rigger (e.g.
      UniRig), with fallback to Rigify metarig fitted to detected joints plus
@@ -191,6 +198,7 @@ stable ID, a version, and thresholds that depend on the style profile.
 | `geo.scale_axes` | height in plausible range, up/forward axes, origin | "model is 0.02 m tall / faces −Z" |
 | `geo.grounding` | lowest point at y=0, stands within support polygon | "centre of mass outside feet: would tip over" |
 | `geo.symmetry` | bilateral symmetry score (if expected) | "left arm 12% longer than right" |
+| `geo.backdrop` | large thin planar component / bbox aspect ≠ source mask aspect | "background reconstructed as a wall behind the subject" |
 
 #### B. Fidelity to the source (deterministic metrics + VLM)
 

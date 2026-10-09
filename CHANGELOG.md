@@ -9,6 +9,9 @@ All notable changes to respec are documented here.
 - Added `carlesso-family/assets/` chess3d character art
   (`<piece>-<character>[-N].jpg`); `pawn-puffin.jpg` (front + 3/4 view) is
   also the first Plastilina test input.
+- Added first free TRELLIS 3D results `carlesso-family/assets/3d/pawn-puffin.glb`
+  and `bishop-ale-1.glb`, the Plastilina `RUNNING_DOC.md` lab notebook +
+  `experiments/scripts/` spikes; Plastilina SPEC gained 6 lessons learned.
 - Added `carlesso-family/chess3d/SPEC.md` (3D family chess, spec only) and
   noted in `AGENTS.md` that this repo hosts only specs (`GEMINI.md` symlinked).
 - Configured `.agents/` with project rules (`respec_rules.md`), pre-push test gate hook
