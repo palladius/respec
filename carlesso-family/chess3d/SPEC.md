@@ -231,4 +231,4 @@ is the "victim" and is removed at the end.
 
 ## Open Questions
 
-- Implementation repo name and hosting (GitHub Pages vs localhost/APK).
+- ~~Implementation repo~~ → **[palladius/carchess3d](https://github.com/palladius/carchess3d)** (public). Hosting (GitHub Pages vs localhost/APK) still open.
