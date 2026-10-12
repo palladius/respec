@@ -20,6 +20,7 @@ plane).
 
 > This repo hosts only the spec. The implementation lives in a separate git
 > repository.
+> ⚠️ Since 2026-10-10 the **living spec** is [`carchess3d/docs/spec/SPEC.md`](https://github.com/palladius/carchess3d/blob/main/docs/spec/SPEC.md); this copy is a frozen v1 snapshot.
 
 ## Goals
 

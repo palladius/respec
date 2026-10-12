@@ -4,6 +4,7 @@ All notable changes to respec are documented here.
 
 ## Unreleased
 
+- chess3d SPEC: 1-line pointer, the living spec is now `carchess3d/docs/spec/SPEC.md` (this copy is a frozen v1 snapshot).
 - Moved the last `docs/` specs into `specs/`: `apps/plastilina`,
   `tools/sheets-autodetect-2026`, `tools/workshop-visualizer`.
   `carlesso-family/chess3d/` stays put (linked from `palladius/carchess3d`).
