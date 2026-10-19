@@ -146,6 +146,12 @@ is the "victim" and is removed at the end.
   lightweight glTF, plus a **portrait billboard/medallion** using the 2D
   cutie art from `carlesso-family/assets/`. Missing asset → emoji/initial
   fallback so the game never breaks.
+- **Model LODs**: each piece ships as several GLBs
+  (`<piece>-<char>.{low,med,high,ultra}.glb` ≈ 10k / 50k / 100k / 1M triangles).
+  On first launch a ~2 s micro-benchmark (GPU tier, `deviceMemory`, cores, a
+  test GLB's load+render time) picks a tier; defaults: phone → low, tablet →
+  med, laptop → high, strong desktop → ultra. Cached per device; a ⚙️ gear in
+  the HUD forces Auto/Low/Med/High/Ultra.
 - `fx/captures/` — one module per attacker type, common interface
   `play(attacker, victim, scene) → Promise`, skippable.
 - `ui/` — HTML/CSS HUD: turn indicator, captured pieces tray (mini
@@ -207,6 +213,9 @@ is the "victim" and is removed at the end.
    Android Chrome.
 8. Holds ≥ 30 fps on a mid-range Android phone (adaptive quality allowed).
 9. No brand names/logos appear anywhere in assets, code, or UI.
+10. A benchmark table (in the impl repo) reports startup time and fps per LOD
+    on ≥3 device classes (cheap phone, iPad, strong desktop) and justifies the
+    auto-quality defaults.
 
 ## Alternatives Considered
 
@@ -233,3 +242,5 @@ is the "victim" and is removed at the end.
 ## Open Questions
 
 - ~~Implementation repo~~ → **[palladius/carchess3d](https://github.com/palladius/carchess3d)** (public). Hosting (GitHub Pages vs localhost/APK) still open.
+- Who produces the LOD GLBs: Plastilina's export step, or a mesh-simplify
+  script (e.g. `gltf-transform simplify`) in the impl repo?
