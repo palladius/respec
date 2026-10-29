@@ -4,6 +4,10 @@ All notable changes to respec are documented here.
 
 ## Unreleased
 
+## 0.3.2
+
+- Installed GitHub Spec Kit (`specify-cli` v1.2.4, `--integration agy`) with `assess`, `bug`, and `github` extensions under `.agents/skills/speckit-*` and `.specify/`.
+- Updated `AGENTS.md` (and symlinked `GEMINI.md -> AGENTS.md`) recommending `specify-cli` installation and documenting the Spec Foundry vs Target Repo workflow.
 - chess3d SPEC: 1-line pointer, the living spec is now `carchess3d/docs/spec/SPEC.md` (this copy is a frozen v1 snapshot).
 - Moved the last `docs/` specs into `specs/`: `apps/plastilina`,
   `tools/sheets-autodetect-2026`, `tools/workshop-visualizer`.

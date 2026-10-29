@@ -15,6 +15,22 @@ Note this claude session is wrapped by my $GIC/bin/claudio-XXXX scripts.
 2. Do not change specs alone, always prompt user and ask for explicit confirmation to change those. if You do, do it in concise way (ie add 1-2 lines not a full paragraph or chapter!)
 3. If you observe drift betwene code and specs, PLEASE let user know so you can take action.
 
+## GitHub Spec Kit (`specify-cli`) & Skills
+
+We strongly recommend installing [GitHub Spec Kit (`specify-cli`)](https://github.com/github/spec-kit) alongside `speck`:
+
+```bash
+uv tool install specify-cli
+specify init --here --integration agy   # or --integration gemini / claude
+specify extension add assess
+specify extension add bug
+specify extension add github
+```
+
+Installed skills in `.agents/skills/`:
+- **In `respec` (Spec Foundry)**: use `/speckit-assess-*` (`intake` -> `research` -> `define` -> `shape` -> `decide`), `/speckit-specify`, `/speckit-clarify`, and `/speckit-checklist` to triage ideas and refine specs.
+- **In target implementation repos**: use `spec-to-code-tdd` alongside `/speckit-plan` -> `/speckit-tasks` -> `/speckit-analyze` -> `/speckit-implement` <-> `/speckit-converge` (append-only gap convergence loop).
+
 ## code
 
 * Maintain a version somewhere (either in file or inside constants/main code file) and add changes to `CHANGELOG.md` consistently with version changes.
