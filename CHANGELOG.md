@@ -4,6 +4,10 @@ All notable changes to respec are documented here.
 
 ## Unreleased
 
+## 0.3.3
+
+- Added `specs/games/tricolore-chess-3d/SPEC.md` (with `input_prompt.md` and `assets/scacchiera_fisica_riccardo.png`): pragmatic 2D/3D 3-player chess game (*TriBecca / Scacchi Tricolore 3D*, implemented at [`palladius/tribecca`](https://github.com/palladius/tribecca)) replicating Riccardo's 96-square wooden board (`A..L` × `1..12`), the 6-square central Rosette (`D4, D5, I5, I9, E9, E4`) rules (`NMLVaFImzVs`), the 4 elimination modes (`Destroy`, `Protoss Conquer`, `Flotsam`, `Sudden Death`), `PuffinLogin` seat-to-color mapping (`Ale`, `Seby`, `Papino`, `Computer` $\Longleftrightarrow$ `Bianco`, `Verde`, `Rosso`), $120^\circ$ turn camera rotation, and illuminated branching ray trajectories.
+
 ## 0.3.2
 
 - Installed GitHub Spec Kit (`specify-cli` v1.2.4, `--integration agy`) with `assess`, `bug`, and `github` extensions under `.agents/skills/speckit-*` and `.specify/`.
