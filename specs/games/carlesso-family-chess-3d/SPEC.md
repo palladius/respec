@@ -3,7 +3,7 @@ speck_version: "0.1"
 mode: manual
 idea_file: input_prompt.md
 created_at: "2026-10-08T11:30:00Z"
-assets_dir: "../assets/"
+assets_dir: "./assets/"
 ---
 
 # Carlesso Family 3D Chess ("Scacchi di Famiglia")

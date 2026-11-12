@@ -1,0 +1,15 @@
+apiVersion: respec.palladius.it/v1
+kind: SpecBlueprint
+
+metadata:
+  slug: telegram-voice-agents
+  category: apps
+  title: "Telegram-Style Multi-Agent Voice & Self-Correcting Live Chat"
+  created_at: "2026-11-11"
+
+implementation:
+  status: active
+  github_repo: "https://github.com/palladius/korybantes"
+  git_ssh: "git@github.com:palladius/korybantes.git"
+  local_checkout: "~/git/korybantes"
+  note: "Queste specs sono implementate in https://github.com/palladius/korybantes"

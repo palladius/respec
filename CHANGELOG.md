@@ -4,6 +4,12 @@ All notable changes to respec are documented here.
 
 ## Unreleased
 
+## 0.3.4
+
+- Added `specs/apps/telegram-voice-agents/` (`SPEC.md`, `README.md`, `blueprint.yaml`, `input_prompt.md`), with implementation pointer to [`palladius/korybantes`](https://github.com/palladius/korybantes): portable Flutter frontend (Google Pixel 10 first) featuring a Telegram-style multi-persona inbox, dual text/voice chat, single-tap hands-free *"Interrompimi"* (barge-in) full-duplex voice mode with `gemini-3.8-flash-tts`, and real-time semantic self-correcting transcription (*"voglio un gelato alla crema, anzi no, al pistacchio"* $\rightarrow$ *"Voglio un gelato al pistacchio"*).
+- Consolidated all root-level scattered spec directories (`carlesso-family/`, `samples/`, `giochi/`) into `specs/games/` (`carlesso-family-chess-3d`, `pupurabbu-3d`, `flowconnect-pipe-puzzle`).
+- Flattened all nested sub-categories (`specs/games/classic-arcade/*`, `specs/games/cloud-adventures/*`, `specs/meta/antigravity/*`) to the canonical 2-level `specs/<category>/<slug>/SPEC.md` taxonomy.
+
 ## 0.3.3
 
 - Added `specs/games/tricolore-chess-3d/SPEC.md` (with `input_prompt.md` and `assets/scacchiera_fisica_riccardo.png`): pragmatic 2D/3D 3-player chess game (*TriBecca / Scacchi Tricolore 3D*, implemented at [`palladius/tribecca`](https://github.com/palladius/tribecca)) replicating Riccardo's 96-square wooden board (`A..L` × `1..12`), the 6-square central Rosette (`D4, D5, I5, I9, E9, E4`) rules (`NMLVaFImzVs`), the 4 elimination modes (`Destroy`, `Protoss Conquer`, `Flotsam`, `Sudden Death`), `PuffinLogin` seat-to-color mapping (`Ale`, `Seby`, `Papino`, `Computer` $\Longleftrightarrow$ `Bianco`, `Verde`, `Rosso`), $120^\circ$ turn camera rotation, and illuminated branching ray trajectories.
