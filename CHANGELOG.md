@@ -4,11 +4,14 @@ All notable changes to respec are documented here.
 
 ## Unreleased
 
+- Added `specs/games/swipe-and-shrink/SPEC.md` (with `input_prompt.md` and screenshot references in `assets/`): didactic multilingual anagram puzzle game (*Swipe & Shrink / Parole in Fuga*) featuring continuous finger dragging/rotation, dynamic reference counting ($D(r,c)$) for progressive letter tile depletion, multilingual dictionary ladders for IT/EN/DE/FR, and PuffinLogin integration for Ale & Sebi.
+
 ## 0.3.4
 
 - Added `specs/apps/telegram-voice-agents/` (`SPEC.md`, `README.md`, `blueprint.yaml`, `input_prompt.md`), with implementation pointer to [`palladius/korybantes`](https://github.com/palladius/korybantes): portable Flutter frontend (Google Pixel 10 first) featuring a Telegram-style multi-persona inbox, dual text/voice chat, single-tap hands-free *"Interrompimi"* (barge-in) full-duplex voice mode with `gemini-3.8-flash-tts`, and real-time semantic self-correcting transcription (*"voglio un gelato alla crema, anzi no, al pistacchio"* $\rightarrow$ *"Voglio un gelato al pistacchio"*).
 - Consolidated all root-level scattered spec directories (`carlesso-family/`, `samples/`, `giochi/`) into `specs/games/` (`carlesso-family-chess-3d`, `pupurabbu-3d`, `flowconnect-pipe-puzzle`).
 - Flattened all nested sub-categories (`specs/games/classic-arcade/*`, `specs/games/cloud-adventures/*`, `specs/meta/antigravity/*`) to the canonical 2-level `specs/<category>/<slug>/SPEC.md` taxonomy.
+
 
 ## 0.3.3
 
