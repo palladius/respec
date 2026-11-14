@@ -46,11 +46,11 @@ Ogni livello è definito da:
   - Se $D(r, c) > 0$: La tessera rimane attiva, opaca e selezionabile.
   - Non appena $D(r, c) = 0$: **Trigger Dissolvenza**! La tessera fa un piccolo salto (*anticipation jump*), esplode in stelline sonore (*poof!*) e diventa completamente trasparente, lasciando visibile il pezzo corrispondente dell'illustrazione di Ale e Seby.
 
-### 2.2 Regole di Connessione Swipe
-- **Adiacenza a 8 direzioni**: Orizzontale, verticale e diagonale tra caselle contigue.
+### 2.2 Regole di Connessione Swipe (Solo Orizzontale e Verticale — NO Diagonale)
+- **Adiacenza Ortogonale a 4 direzioni ($\Delta r + \Delta c = 1$)**: Ci si può muovere **solo in orizzontale e verticale** tra caselle contigue (niente diagonali, per massima chiarezza visiva e giocabilità per i bimbi).
 - **No Riutilizzo nello Stesso Swipe**: La stessa coordinata $(r, c)$ non può essere usata due volte nella stessa parola.
 - **Feedback Tattile & Visivo**:
-  - Linea morbida luminosa che segue il dito e unisce le tessere.
+  - Linea morbida luminosa che segue il dito ad angoli retti (orizzontale/verticale) e unisce le tessere.
   - Fumetto grande ad alta leggibilità sopra il dito con le lettere selezionate.
   - Se il bambino traccia una parola valida del dizionario non prevista tra i target, finisce nel **Puffin Cookie Jar** regalando stelline bonus senza alterare $D(r, c)$.
 
@@ -58,14 +58,14 @@ Ogni livello è definito da:
 
 ## 3. Taratura Difficoltà & Architettura Offline ($0 Costo Runtime)
 
-### 3.1 Due Tier per Profilo Giocatore
+### 3.1 Due Tier per Profilo Giocatore (8–10 Parole Coese per Livello)
 
 | Parametro | 🏎️ Tier Seby (6 anni — P1) | 🐉 Tier Ale (8 anni — P3) |
 | :--- | :--- | :--- |
-| **Griglia** | $3 \times 3$ (max 9 lettere) | $4 \times 4$ (max 16 lettere) |
-| **Parole per livello ($N$)** | $3$ parole | $4\text{–}5$ parole |
-| **Lunghezza parole** | $3\text{–}4$ lettere | $4\text{–}6$ lettere |
-| **Lessico prevalente** | 90% CEFR A1 (`APE`, `SOLE`, `MARE`, ` RE`) | 75% A1/A2 + max 1–2 parole `B1+` spiegate |
+| **Griglia** | $3 \times 3$ (9 lettere ad alta densità) | $4 \times 4$ (16 lettere) |
+| **Parole per livello ($N$)** | **$8\text{–}10$ parole** ortogonali coese | **$8\text{–}10$ parole** ortogonali coese |
+| **Lunghezza parole** | $3\text{–}5$ lettere | $3\text{–}6$ lettere |
+| **Lessico prevalente** | Base A1/A2 (`APE`, `PANE`, `RANA`, `SOLE`) + parole d'incrocio spiegate (`ARNIA`, `AIA`, `ARA`) | Base A1/A2 + parole curiose `B1+` spiegate (`SEPPIA`, `ASTRO`, `ELMO`, `LEVA`) |
 | **Aiuto visivo (Hint)** | Illumina la $1^\text{a}$ e $2^\text{a}$ lettera con freccia | Illumina la $1^\text{a}$ lettera della parola più corta |
 
 ### 3.2 Generazione Offline vs Runtime (Implicazioni Costi & AI)
