@@ -4,7 +4,7 @@ All notable changes to respec are documented here.
 
 ## Unreleased
 
-- Added `specs/games/swipe-and-shrink/SPEC.md` (with `input_prompt.md` and screenshot references in `assets/`): didactic multilingual anagram puzzle game (*Swipe & Shrink / Parole in Fuga*) featuring continuous finger dragging/rotation, dynamic reference counting ($D(r,c)$) for progressive letter tile depletion, multilingual dictionary ladders for IT/EN/DE/FR, and PuffinLogin integration for Ale & Sebi.
+- Added `specs/games/kids-words/SPEC.md` (moved and evolved from `swipe-and-shrink`, with `input_prompt.md` and `assets/`): didactic multilingual word-depletion swipe game (*Kids Words / Parole in Fuga*) tailored for Ale (8yo, $4\times 4$ grid) and Seby (6yo, $3\times 3$ grid), featuring progressive $D(r,c)$ tile disappearance that reveals cutie back-view illustrations of the kids, offline `gemini-3.8-flash-tts` pronunciation, automatic comic-bubble + spoken explanations for non-A1/A2 words (e.g. `ARNIA`, `AIA`, `SEPPIA`), and an Italian-first rollout followed by DE/FR/EN.
 - Added `specs/apps/finnish-it-reveng/SPEC.md` (reverse-engineered specification stub pointing to `hummerli-b1-adk/docs/REVENG_FINNISH_IT_SPEC.md` for *Finish It / Finnish It* YKI & German B1 citizenship exam prep app).
 
 ## 0.3.4
