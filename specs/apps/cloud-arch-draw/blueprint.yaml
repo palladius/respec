@@ -1,0 +1,15 @@
+apiVersion: respec.palladius.it/v1
+kind: SpecBlueprint
+
+metadata:
+  slug: cloud-arch-draw
+  category: apps
+  title: "CloudArchDraw — AI-Native Multi-Cloud Architecture Studio (GCP, AWS, Azure)"
+  created_at: "2026-11-17"
+
+implementation:
+  status: active
+  github_repo: "https://github.com/palladius/cloud-arch-draw"
+  git_ssh: "git@github.com:palladius/cloud-arch-draw.git"
+  local_checkout: "~/git/cloud-arch-draw"
+  note: "Interactive multi-cloud architecture studio implemented in ~/git/cloud-arch-draw; this folder hosts only specifications and reference scenario presets."

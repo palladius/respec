@@ -2,8 +2,9 @@
 
 All notable changes to respec are documented here.
 
-## Unreleased
+## 0.3.5
 
+- Added `specs/apps/cloud-arch-draw/` (`SPEC.md`, `README.md`, `blueprint.yaml`, `input_prompt.md`, and 5 reference enterprise multi-cloud scenarios under `scenarios/01..05_*.md`), with implementation pointer to `~/git/cloud-arch-draw` ([`palladius/cloud-arch-draw`](https://github.com/palladius/cloud-arch-draw)): interactive multi-cloud architecture studio (`GCP`, `AWS`, `Azure`) driven by a canonical `ArchitectureSpec` AST, XYFlow Lego canvas, deterministic Graphviz `DOT` with vertex-attached bottleneck/SPOF callouts, live Markdown sync, and 1-click `NanoBanana -> Recreate` presentation rendering.
 - Added `specs/games/kids-words/SPEC.md` (moved and evolved from `swipe-and-shrink`, with `input_prompt.md` and `assets/`): didactic multilingual word-depletion swipe game (*Kids Words / Parole in Fuga*) tailored for Ale (8yo, $4\times 4$ grid) and Seby (6yo, $3\times 3$ grid), featuring progressive $D(r,c)$ tile disappearance that reveals cutie back-view illustrations of the kids, offline `gemini-3.8-flash-tts` pronunciation, automatic comic-bubble + spoken explanations for non-A1/A2 words (e.g. `ARNIA`, `AIA`, `SEPPIA`), and an Italian-first rollout followed by DE/FR/EN.
 - Added `specs/apps/finnish-it-reveng/SPEC.md` (reverse-engineered specification stub pointing to `hummerli-b1-adk/docs/REVENG_FINNISH_IT_SPEC.md` for *Finish It / Finnish It* YKI & German B1 citizenship exam prep app).
 
