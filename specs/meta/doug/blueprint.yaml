@@ -1,0 +1,20 @@
+apiVersion: respec.palladius.it/v1
+kind: SpecBlueprint
+
+metadata:
+  slug: doug
+  category: meta
+  title: "Doug Edgeworth — Durable Agentic DAG Platform & Multi-App Host on Google Cloud Run"
+  created_at: "2026-11-24"
+  updated_at: "2026-11-25"
+
+implementation:
+  status: in-progress
+  github_repo: "https://github.com/palladius/doug"
+  git_ssh: "git@github.com:palladius/doug.git"
+  local_checkout: "~/git/doug"
+  living_spec: "~/git/doug/docs/SPEC.md"
+  specializations:
+    - specs/apps/auto-news
+    - specs/apps/whats-up-with-ai
+  note: "Single-container TypeScript + DBOS + Hono + React/Vite (@xyflow/react) platform deployed as Cloud Run Service (doug-web) + Cloud Run Job (doug-runner), featuring 1-click DBOS.forkWorkflow replay and Zero-Idle HITL suspend/resume."

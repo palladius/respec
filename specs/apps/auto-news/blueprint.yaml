@@ -1,0 +1,16 @@
+apiVersion: respec.palladius.it/v1
+kind: SpecBlueprint
+
+metadata:
+  slug: auto-news
+  category: apps
+  title: "Auto-News — Riccardo vs Riccardo Satirical Left/Right Live AI Newspaper"
+  created_at: "2026-11-24"
+
+implementation:
+  status: planned
+  parent_platform_spec: "specs/meta/doug/SPEC.md"
+  github_repo: "https://github.com/palladius/doug"
+  local_checkout: "~/git/doug"
+  vertical_module: "app/verticals/auto_news"
+  note: "Hosted as Vertical #1 inside doug. Specs & initial NanoBanana hero artwork live here."

@@ -1,0 +1,8 @@
+[0.0:3.8] Sveglia! What's up with A.I.!
+[4.0:9.8] Se sei rimàsto indiètro di una settimàna... you're out of your job!
+[10.0:15.8] Rimarrài prèsto senza lavóro, sei uno sfigàto!
+[16.0:21.8] Open A.I., Anthròpic, Google e Grok... ascolta il podcast o sei già obso-lè-to!
+[22.0:25.8] What's up with A.I.!
+Caption: This track is a quintessential slice of upbeat 1980s Synth-Funk, specifically styled as a high-energy morning radio jingle. The entire piece is built on a relentlessly groovy and infectious rhythm section. The bassline is the star: a bright, percussive slap bass played on a Music Man StingRay bass with a phaser effect, delivering a syncopated, funky pattern full of intricate ghost notes that provides both harmonic support and rhythmic drive. The drums are a classic 80s LinnDrum machine pattern, defined by a powerful kick on every beat and a snare hit drenched in iconic gated reverb on beats 2 and 4. Layered on top are lush, glossy chords from a Yamaha DX7 synthesizer, playing bright major key progressions. A key element providing the energetic punctuation is a powerful, tightly arranged synth-brass section (emulating a Yamaha DX7 Brass patch) that delivers sharp, staccato stabs and flourishes at the end of vocal phrases. A swirling synth pad using a Juno-60 style chorus effect fills the stereo field, gluing the entire mix together with a shimmering texture. The vocals are delivered by a cheerful male tenor with a charismatic, theatrical flair. His delivery is packed with personality, hitting the notes with punch and emphasizing the comedic drama. The overall production is bright, heavily compressed for maximum punch, and has a wide stereo image, creating a polished, larger-than-life sound perfect for radio.
+Mosic: 4.5
+BPM: 120.0

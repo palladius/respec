@@ -2,6 +2,13 @@
 
 All notable changes to respec are documented here.
 
+## 0.3.6
+
+- Added `specs/meta/doug/` (`SPEC.md`, `README.md`, `blueprint.yaml`, `input_prompt.md`): multi-site Ruby on Rails 8 editorial platform & graphically debuggable Cloud Tasks HTTP step-by-step DAG workflow engine for Google Cloud Run (`min-instances=0`), featuring PostgreSQL per-step payload checkpointing, 1-click deterministic replay from failed steps (`/admin`), and an armored 3-tier hybrid crawler (`RSS` + `Jina Reader` + `Gemini Search Grounding` + `QuoteVerifier`).
+- Added `specs/apps/auto-news/` (`SPEC.md`, `README.md`, `blueprint.yaml`, `input_prompt.md`, and `extras/riccardo-vs-riccardo-hero.jpg` NanoBanana character-consistent split-screen banner): Vertical #1 on `doug` contrasting *Compagno Riccardo* (ultra-left) vs *Tycoon Riccardo* (ultra-right) across US, Italian, Swiss, and World politics with an interactive political dial/rotella shifting from Neutral (verified facts & quotes) to Red (SX) and Blue (DX).
+- Added `specs/apps/whats-up-with-ai/` (`SPEC.md`, `README.md`, `blueprint.yaml`, `input_prompt.md`, and `extras/whats-up-with-ai-jingle.{mp3,txt}` 30s Lyria 3 synth-funk morning radio jingle): Vertical #2 on `doug` delivering a rolling 24h AI lab radar (OpenAI, Anthropic, Google, Grok/xAI) + 5–7 min 2-host Italian morning podcast (`gemini-3.8-flash-tts`) + private Podcast RSS feed.
+- Added `specs/tools/rugo/` (`SPEC.md`, `README.md`, `blueprint.yaml`, `input_prompt.md` from Septober `#245`): Ahead-of-Time static Ruby-to-Go transpiler (*Rugo / Goby*) mapping implicit `@ctx` to `context.Context`, Ruby blocks to Go closures/`iter.Seq`, `:symbols` to constants/`unique.Handle[string]`, static `respond_to?` interface narrowing (`method_missing` rejected at compile time), and RSpec -> Go golden-file parity tests.
+
 ## 0.3.5
 
 - Added `specs/apps/cloud-arch-draw/` (`SPEC.md`, `README.md`, `blueprint.yaml`, `input_prompt.md`, and 5 reference enterprise multi-cloud scenarios under `scenarios/01..05_*.md`), with implementation pointer to `~/git/cloud-arch-draw` ([`palladius/cloud-arch-draw`](https://github.com/palladius/cloud-arch-draw)): interactive multi-cloud architecture studio (`GCP`, `AWS`, `Azure`) driven by a canonical `ArchitectureSpec` AST, XYFlow Lego canvas, deterministic Graphviz `DOT` with vertex-attached bottleneck/SPOF callouts, live Markdown sync, and 1-click `NanoBanana -> Recreate` presentation rendering.

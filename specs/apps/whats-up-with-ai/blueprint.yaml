@@ -1,0 +1,16 @@
+apiVersion: respec.palladius.it/v1
+kind: SpecBlueprint
+
+metadata:
+  slug: whats-up-with-ai
+  category: apps
+  title: "What's Up With AI — Last-24h AI Lab Radar & Morning Italian Podcast"
+  created_at: "2026-11-24"
+
+implementation:
+  status: planned
+  parent_platform_spec: "specs/meta/doug/SPEC.md"
+  github_repo: "https://github.com/palladius/doug"
+  local_checkout: "~/git/doug"
+  vertical_module: "app/verticals/whats_up_with_ai"
+  note: "Hosted as Vertical #2 inside doug. Specs & initial Lyria 3 synth-funk morning jingle live here."
