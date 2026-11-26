@@ -1,0 +1,18 @@
+apiVersion: respec.palladius.it/v1
+kind: SpecBlueprint
+
+metadata:
+  slug: rugo
+  aliases:
+    - goby
+  category: tools
+  title: "Rugo (aka Goby) — Ahead-of-Time Static Ruby-to-Go Transpiler"
+  created_at: "2026-11-26"
+  septober_todo_id: 245
+
+implementation:
+  status: prototype-local
+  github_repo: "https://github.com/palladius/rugo"
+  git_ssh: "git@github.com:palladius/rugo.git"
+  local_checkout: "~/git/rugo"
+  note: "Initial prototype & preliminary RSpec suite drafted on Mac / mini-lobby; GitHub repo palladius/rugo not yet pushed as of 2026-11-26. Per respec rules, this directory hosts specifications only."
