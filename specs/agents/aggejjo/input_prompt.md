@@ -13,3 +13,7 @@ The `chumbia` skill's "Archivia Chat" button on Antigravity did nothing: there i
 "deve avere l'abilità come T3 ... di aprire altre chat programmaticamente, cioè io posso dire in una chat 'aprimi tre chat in questo progetto', puff, o archivia una chat ... voglio creare con te un Antigravity più forte. E poi che usi questo Jev System One per valutare automaticamente il rischio di eseguire comandi e quindi se un comando ha una probabilità maggiore di 80% di essere safe, allora lo esegui senza chiedere. Se è unsafe lo blocchi e se è qualcosa di mezzo lo chiedi a me e usi un sistema a semafori con un'emoji giallo, rosso, arancione, verde, bianco per dirmi safe o non safe."
 
 "alla fine voglio semplicemente uno spec.md da mettere in respec."
+
+## Naming (2026-11-28)
+"ho un idea, questo AGJ possiamo chiamarlo AGGEGGIO o aggejjo. ha agy, jev, e aggeggio fa molto harness in dialetto"
+"Magari project name "Aggejjo" e cli name `agj`"

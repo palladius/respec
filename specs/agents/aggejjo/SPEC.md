@@ -4,10 +4,12 @@ mode: manual
 created_at: 2026-11-28
 authors: Riccardo Carlesso & Antigravity
 status: draft
-tags: [agents, harness, antigravity-sdk, rust, jev, system-one, cli, threads]
+tags: [aggejjo, agents, harness, antigravity-sdk, rust, jev, system-one, cli, threads]
 ---
 
-# 🦀🚦 agj — a stronger Antigravity: Rust CLI harness with programmable threads and a Jev traffic-light gate
+# 🦀🚦 Aggejjo (`agj`) — a stronger Antigravity: Rust CLI harness with programmable threads and a Jev traffic-light gate
+
+> **Name**: *Aggejjo* is a dialect spelling of Italian *aggeggio* ("contraption, gizmo"), which is exactly what a home-made harness is. The letters spell **ag**(y) + **je**(v). Project = **Aggejjo**, CLI binary = **`agj`**.
 
 ## Problem Statement
 
@@ -132,7 +134,7 @@ Each phase is TDD and ends green on `just test`. The `justfile` starts with `lis
 
 | # | Deliverable | Done when |
 |---|---|---|
-| 0 | Repo `agj` (private, `palladius`), Cargo workspace (`crates/agj`, `crates/gate`, `crates/store`), `worker/` uv project, `justfile`, CI | `just test` green with smoke tests |
+| 0 | Repo `aggejjo` (private, `palladius`), Cargo workspace (`crates/agj` binary, `crates/gate`, `crates/store`), `worker/` uv project, `justfile`, CI | `just test` green with smoke tests |
 | 1 | Python worker MVP + stdio JSON-RPC; Rust client one-shot `agj -p` | Ask, read a file, run `ls`, resume via `conversation_id` |
 | 2 | Daemon + SQLite + thread lifecycle + CLI `threads *` | `threads new -n 3 --json` < 300 ms with no worker spawned; daemon restart keeps state |
 | 3 | Agent tools `thread_*` | "aprimi 3 chat" → 3 threads with `parent_id`; "archivia questa chat" → reply delivered, then archived and worker exited |
@@ -154,7 +156,7 @@ Each phase is TDD and ends green on `just test`. The `justfile` starts with `lis
 
 ## Open Questions
 
-- Name: `agj` or something punnier?
+- ~~Name~~ → decided 2026-11-28: project **Aggejjo**, CLI **`agj`**, data dir `~/.agj/`.
 - Colour semantics: is ⚪ = read-only/no-Jev and 🟠 = ask-with-friction right, or should ⚪ mean "Jev unavailable"?
 - Is the 🟢 threshold 0.80 global, or per-project (stricter in prod/infra repos)?
 - Jev access: is the `jev-proxy` MCP / API key already set up on this Mac, or is `install-jev-for-antigravity` step zero?
