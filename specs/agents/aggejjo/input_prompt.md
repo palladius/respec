@@ -23,3 +23,6 @@ The `chumbia` skill's "Archivia Chat" button on Antigravity did nothing: there i
 
 ## Risk tiers (2026-11-28)
 "Il lato jev deve classificare un fattore rischio (giallo, aranctione, rosso, bianco==verde) e chiedere permesso con rosso/arancione (magare con il rosso dovrebbe fare un ulteriore are you sure, mentre con arancione proporre di whitelistare l'operazione.. similmente ad agy)"
+
+## Antigravity parity (2026-11-28, voice)
+"decidi tu il fatto dell'append su .env ... può essere sia giallo che arancione ... L'unica cosa importante è di non reinventare la ruota ... AntiGravity usa un JSON per gli allow list ... o usare lo stesso JSON, che può essere rischioso, oppure ricalcare lo stesso behavior ... un clone di AntiGravity, una specie di AntiGravity CLI con Jev ... i file hanno un nome diverso o un folder diverso, ma hanno lo stesso behavior ... Metti nelle spec di usare default intelligenti defaultando ad AntiGravity."
